@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Section B Introduction Examples</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Slab|Raleway+Dots|Satisfy|Stardos+Stencil|Lato|Quicksand"
+      rel="stylesheet"
+    />
+    <meta encoding="UTF-8" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <a href="index.php"
+          ><img src="img/logo.png" alt="Mountain Art Supplies" height="90"
+        /></a>
+      </header>
+      <section>
+        <table>
+          <tr>
+            <th>키</th>
+            <td>목적</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['REMOTE_ADDR']</th>
+            <td>브라우저의 IP 주소</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['HTTP_USER_AGENT']</th>
+            <td>페이지를 요청하는 데 사용된 브라우저의 타입</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['HTTP_REFERER']</th>
+            <td>
+              방문자가 링크를 통해 이 페이지에 온 경우라면, 브라우저는 이
+              페이지에 링크된 페이지의 URL을 보낼 수 있다. 모든 브라우저가 이
+              데이터를 보내는 것은 아니다.
+            </td>
+          </tr>
+          <tr>
+            <th>$_SERVER['REQUEST_METHOD']</th>
+            <td>HTTP 요청 타입: GET 또는 POST</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['HTTPS']</th>
+            <td>
+              HTTPS를 사용하여 페이지에 접근한 경우에만 추가되며, 그 값은 true
+            </td>
+          </tr>
+          <tr>
+            <th>$_SERVER['HTTP_HOST']</th>
+            <td>호스트 이름(도메인 이름, IP 주소 또는 localhost일 수 있음)</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['REQUEST_URI']</th>
+            <td>이 페이지를 요청하는 데 사용된 호스트 이름 다음의 URI</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['QUERY_STRING']</th>
+            <td>쿼리 문자열의 모든 데이터</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['SCRIPT_NAME']</th>
+            <td>도큐먼트 루트 폴더에서 현재 실행 중인 파일까지의 경로</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['SCRIPT_FILENAME']</th>
+            <td>파일시스템 루트에서 현재 실행 중인 파일까지의 경로</td>
+          </tr>
+          <tr>
+            <th>$_SERVER['DOCUMENT_ROOT']</th>
+            <td>
+              파일시스템 루트에서 실행 중인 파일의 도큐먼트 루트까지의 경로
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              도큐먼트 루트와 파일세스템 루트의 차이점은
+              <a href="http://notes.re/php/filepaths"
+                >http://notes.re/php/filepaths</a
+              >를 참고하자.
+            </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
