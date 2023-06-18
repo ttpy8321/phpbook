@@ -29,6 +29,7 @@ table > tbody > tr > td {
   border: 1px solid white;
   padding: 0.5em 1em;
   text-align: start;
+  word-break: break-word;
 }
 
 main {
