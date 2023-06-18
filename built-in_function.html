@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h3>대소문자 바꾸기</h3>
+        <table>
+          <tr>
+            <th>함수</th>
+            <td>설명</td>
+          </tr>
+          <tr>
+            <th>strtolower($string)</th>
+            <td>모든 문자가 소문자인 문자열을 반환한다.</td>
+          </tr>
+          <tr>
+            <th>strtoupper($string)</th>
+            <td>모든 문자가 대문자인 문자열을 반환한다.</td>
+          </tr>
+          <tr>
+            <th>ucwords($string)</th>
+            <td>모든 단어의 첫 글자가 대문자인 문자열을 반환한다.</td>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <h3>문자와 단어 계수하기</h3>
+        <table>
+          <tr>
+            <th>함수</th>
+            <td>설명</td>
+          </tr>
+          <tr>
+            <th>strlen($string)</th>
+            <td>
+              문자열의 문자 수를 반환한다.<br />
+              공백과 구두점도 문자로 취급한다.<br />
+            </td>
+          </tr>
+          <tr>
+            <th>str_word_count($string)</th>
+            <td>문자열의 단어 수를 반환한다.</td>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <h3>문자열에서 문자 찾기</h3>
+        <table>
+          <tr>
+            <th>함수</th>
+            <td>설명</td>
+          </tr>
+          <tr>
+            <th>strpos($string, $substring[, $offset])</th>
+            <td>
+              하위 문자열과 처음으로 일치하는 위치를 반환(대소문자 구분).<br />
+              offset을 사용하면 그 문자 위치 다음부터 찾는다.<br />
+            </td>
+          </tr>
+          <tr>
+            <th>stripos($string, $substring[, $offset])</th>
+            <td>대소문자를 구분하지 않는 strpos() 버전</td>
+          </tr>
+          <tr>
+            <th>strrpos($string, $substring[, $offset])</th>
+            <td>하위 문자열에 대해 마지막으로 일치하는 위치를 반환(대소문자 구분)</td>
+          </tr>
+          <tr>
+            <th>strripos($string, $substring[, $offset])</th>
+            <td>대소문자를 구분하지 않는 strrpos() 버전</td>
+          </tr>
+          <tr>
+            <th>strstr($string, $substring)</th>
+            <td>하위 문자열이 처음으로 일치하는 위치부터 문자열의 끝까지의 텍스트를 반환(대소문자 구분)</td>
+          </tr>
+          <tr>
+            <th>strripos($string, $substring[, $offset])</th>
+            <td>대소문자를 구분하지 않는 strrpos() 버전</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
